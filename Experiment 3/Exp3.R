@@ -131,11 +131,8 @@ print(sal)
 retval <- subset(data, salary == max(salary))
 print(retval)
 
-
-
 retval <- subset(data, dept == "IT")
 print(retval)
-
 
 retval <- subset(data, as.Date(start_date) > as.Date("2014-01-01"))
 print(retval)
